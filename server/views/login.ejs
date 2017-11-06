@@ -2,7 +2,7 @@
   <form action="/login" method="post">
     <fieldset>
       <legend>Login form</legend>
-      <div>
+        <div>
         <label for="email">Email:</label>
         <input type="text" name="email" value="<%= email %>"/>
       </div>
@@ -18,10 +18,18 @@
 </section>
 
 <section>
-  <form action="/api/users" method="post">
+  <form action="/api/Usuario" method="post">
     <fieldset>
       <legend>Sign up form</legend>
       <div>
+        <label for="nombre">nombre:</label>
+        <input type="text" name="nombre" />
+      </div>
+        <div>
+        <label for="apellidos">apellidos:</label>
+        <input type="text" name="apellidos" />
+      </div>
+    <div>
         <label for="email">Email:</label>
         <input type="text" name="email" value="<%= email %>"/>
       </div>
