@@ -19,8 +19,8 @@ module.exports = {
     connector: "mail",
     transports: [{
       type: "smtp",
-      host: "smtp.private.com",
-      secure: false,
+      host: "smtp.gmail.com",
+      secure: true,
       port: 465,
       auth: {
         user: process.env.EMAIL_USER,
